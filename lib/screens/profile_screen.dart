@@ -193,13 +193,14 @@ class ProfileScreen extends StatelessWidget {
                       isColor: false,
                     ),
                     AppColumnLayout(
-                      firstText: 'taiwan',
+                      firstText: 'Taiwan',
                       secondText: 'Received from',
                       alignment: CrossAxisAlignment.end,
                       isColor: false,
                     ),
                   ],
                 ),
+                SizedBox(height: 12,),
                 AppLayoutBuildWidget(sections: 12,isColor: false,),
                 SizedBox(height: 12,),
                 const Row(
@@ -219,6 +220,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(height: 12,),
               ],
             ),
           ),
